@@ -1,4 +1,4 @@
-.react-logo {
+/* .react-logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -21,4 +21,43 @@
   .react-logo {
     animation: logo-spin infinite 20s linear;
   }
+} */
+
+.aaa {
+  width: auto;
+  height: 100px;
+  background-color: aliceblue;
+}
+
+.AppDiv {
+  color: brown;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding-top: 18rem;
+  font-size: 36px;
+}
+
+.description {
+  margin: 32px 0 0 0;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.list {
+  margin: 16px 0 0 0;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.listItem:first-child {
+  padding: 0;
+}
+
+.listItem {
+  padding: 8px 0 0 0;
 }
