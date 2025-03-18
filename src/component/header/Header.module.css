@@ -1,0 +1,16 @@
+.header {
+    position: relative;
+    width: auto;
+    height: 60px;
+    background-color: midnightblue;
+}
+
+.bar {
+    position: absolute;
+    top: 0%;
+}
+
+.logo{
+    position: absolute;
+    color: white;
+}
