@@ -1,0 +1,10 @@
+img {
+    /* width: 50%;
+    height: auto;
+    display: block;
+    text-align: center; */
+  }
+.slideContent {
+    display: flex;
+    justify-content: center;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './App.module.css'
 import {Test} from './component/test/test.jsx'
 import {Header} from './component/header/Header.jsx'
+import {Slide} from './component/slide/Slide.jsx'
 
 export const App = ()=>{
   return(
@@ -10,6 +11,7 @@ export const App = ()=>{
       <Top />
       <Test />
       <div className={styles.AppDiv}>aaa</div>
+      <Slide />
       
     </>
   )
