@@ -3,6 +3,7 @@ import styles from './App.module.css'
 import {Test} from './component/test/test.jsx'
 import {Header} from './component/header/Header.jsx'
 import {Slide} from './component/slide/Slide.jsx'
+import {Cards} from './component/cards/cards.jsx'
 
 export const App = ()=>{
   return(
@@ -12,7 +13,7 @@ export const App = ()=>{
       <Test />
       <div className={styles.AppDiv}>aaa</div>
       <Slide />
-      
+      <Cards />
     </>
   )
 }

@@ -7,7 +7,7 @@ import 'swiper/css';
 export const Slide = ()=>{
     console.log('スライドコンポーネント')
     return(
-        <>
+        <section className={styles.content}>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={10}
@@ -27,6 +27,6 @@ export const Slide = ()=>{
                     <div className={styles.slideContent}><img src='/img/winter.jpeg' alt='冬'/></div>
                 </SwiperSlide>
             </Swiper>
-        </>
+        </section>
     )
 }
